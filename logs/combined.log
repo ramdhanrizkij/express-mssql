@@ -1,0 +1,103 @@
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:41:36"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:42:50","url":"/api/auth/register","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"warn","message":"Route not found: GET /api/auth/register","service":"user-api","timestamp":"2025-03-21 21:42:50"}
+{"level":"warn","message":"Outgoing response","method":"GET","responseTime":"20.76ms","service":"user-api","status":404,"timestamp":"2025-03-21 21:42:50","url":"/api/auth/register"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"user-api","timestamp":"2025-03-21 21:43:20","url":"/api/auth/register","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with email Yessenia_Becker10@hotmail.com","service":"user-api","timestamp":"2025-03-21 21:43:20"}
+{"level":"debug","message":"User with email Yessenia_Becker10@hotmail.com not found","service":"user-api","timestamp":"2025-03-21 21:43:20"}
+{"email":"Yessenia_Becker10@hotmail.com","level":"debug","message":"Creating new user","service":"user-api","timestamp":"2025-03-21 21:43:20"}
+{"email":"Yessenia_Becker10@hotmail.com","id":2,"level":"info","message":"User created successfully","service":"user-api","timestamp":"2025-03-21 21:43:20"}
+{"level":"info","message":"Outgoing response","method":"POST","responseTime":"283.08ms","service":"user-api","status":201,"timestamp":"2025-03-21 21:43:20","url":"/register"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"user-api","timestamp":"2025-03-21 21:43:27","url":"/api/auth/register","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"error","message":"Expected double-quoted property name in JSON at position 83 (line 5 column 1)","method":"POST","path":"/api/auth/register","service":"user-api","stack":"SyntaxError: Expected double-quoted property name in JSON at position 83 (line 5 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (E:\\Research\\Bytecode\\bytecode-project\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at E:\\Research\\Bytecode\\bytecode-project\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (E:\\Research\\Bytecode\\bytecode-project\\node_modules\\raw-body\\index.js:238:16)\n    at done (E:\\Research\\Bytecode\\bytecode-project\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (E:\\Research\\Bytecode\\bytecode-project\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-03-21 21:43:27"}
+{"level":"warn","message":"Outgoing response","method":"POST","responseTime":"19.36ms","service":"user-api","status":500,"timestamp":"2025-03-21 21:43:27","url":"/api/auth/register"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"user-api","timestamp":"2025-03-21 21:43:38","url":"/api/auth/register","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"warn","message":"Outgoing response","method":"POST","responseTime":"9.96ms","service":"user-api","status":400,"timestamp":"2025-03-21 21:43:38","url":"/register"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"user-api","timestamp":"2025-03-21 21:43:58","url":"/api/auth/register","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with email Yessenia_Becker10@hotmail.com","service":"user-api","timestamp":"2025-03-21 21:43:58"}
+{"level":"debug","message":"Retrieved user with email Yessenia_Becker10@hotmail.com","service":"user-api","timestamp":"2025-03-21 21:43:58"}
+{"level":"warn","message":"Outgoing response","method":"POST","responseTime":"47.71ms","service":"user-api","status":400,"timestamp":"2025-03-21 21:43:58","url":"/register"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:45:21"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:45:31"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:45:50"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:46:33"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:47:50"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:48:34"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"user-api","timestamp":"2025-03-21 21:49:09","url":"/api/auth/login","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with email ramdhanrizkij@gmail.com","service":"user-api","timestamp":"2025-03-21 21:49:09"}
+{"level":"debug","message":"Retrieved user with email ramdhanrizkij@gmail.com","service":"user-api","timestamp":"2025-03-21 21:49:09"}
+{"level":"info","message":"Outgoing response","method":"POST","responseTime":"426.72ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:49:09","url":"/login"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:49:39","url":"/api/users","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"warn","message":"Outgoing response","method":"GET","responseTime":"3.63ms","service":"user-api","status":401,"timestamp":"2025-03-21 21:49:39","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:49:53","url":"/api/users","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:49:53"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:49:53"}
+{"level":"debug","message":"Fetching all users","service":"user-api","timestamp":"2025-03-21 21:49:53"}
+{"level":"debug","message":"Retrieved 2 users","service":"user-api","timestamp":"2025-03-21 21:49:54"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"96.08ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:49:54","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:50:05","url":"/api/users","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:05"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:05"}
+{"level":"debug","message":"Fetching all users","service":"user-api","timestamp":"2025-03-21 21:50:05"}
+{"level":"debug","message":"Retrieved 2 users","service":"user-api","timestamp":"2025-03-21 21:50:05"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"17.11ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:50:05","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:50:11","url":"/api/users?page=1","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:11"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:11"}
+{"level":"debug","message":"Fetching all users","service":"user-api","timestamp":"2025-03-21 21:50:11"}
+{"level":"debug","message":"Retrieved 2 users","service":"user-api","timestamp":"2025-03-21 21:50:11"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"16.75ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:50:11","url":"/?page=1"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:50:23","url":"/api/users?page=1","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:23"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:23"}
+{"level":"debug","message":"Fetching all users","service":"user-api","timestamp":"2025-03-21 21:50:23"}
+{"level":"debug","message":"Retrieved 2 users","service":"user-api","timestamp":"2025-03-21 21:50:23"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"41.08ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:50:23","url":"/?page=1"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:50:36"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:50:38","url":"/api/users?page=1&limit=10","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:38"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:50:38"}
+{"level":"debug","message":"Fetching all users","service":"user-api","timestamp":"2025-03-21 21:50:38"}
+{"level":"debug","message":"Retrieved 2 users","service":"user-api","timestamp":"2025-03-21 21:50:38"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"76.55ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:50:38","url":"/?page=1&limit=10"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:51:35","url":"/api/users?page=1&limit=10&search&role","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:51:35"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:51:35"}
+{"level":"debug","message":"Fetching all users","service":"user-api","timestamp":"2025-03-21 21:51:35"}
+{"level":"debug","message":"Retrieved 2 users","service":"user-api","timestamp":"2025-03-21 21:51:35"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"76.56ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:51:35","url":"/?page=1&limit=10&search&role"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:52:01"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:52:07","url":"/api/users?page=1&limit=10&search&role","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:52:07"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:52:07"}
+{"level":"debug","message":"Fetching all users","service":"user-api","timestamp":"2025-03-21 21:52:07"}
+{"level":"debug","message":"Retrieved 2 users","service":"user-api","timestamp":"2025-03-21 21:52:07"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"116.62ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:52:07","url":"/?page=1&limit=10&search&role"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:52:24"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:52:27"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:52:30"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:52:32","url":"/api/users?page=1&limit=10&search&role","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:52:32"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:52:32"}
+{"level":"debug","message":"Finding users with filters","options":{"limit":10,"page":1,"role":"","search":""},"service":"user-api","timestamp":"2025-03-21 21:52:32"}
+{"level":"debug","message":"Found 2 users out of 2 total","service":"user-api","timestamp":"2025-03-21 21:52:32"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"94.49ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:52:32","url":"/?page=1&limit=10&search&role"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:52:58","url":"/api/users?page=1&limit=10&search=ram&role","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:52:58"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:52:58"}
+{"level":"debug","message":"Finding users with filters","options":{"limit":10,"page":1,"role":"","search":"ram"},"service":"user-api","timestamp":"2025-03-21 21:52:58"}
+{"error":"Assignment to constant variable.","level":"error","message":"Error finding users with filters","service":"user-api","timestamp":"2025-03-21 21:52:58"}
+{"level":"warn","message":"Outgoing response","method":"GET","responseTime":"47.52ms","service":"user-api","status":500,"timestamp":"2025-03-21 21:52:58","url":"/?page=1&limit=10&search=ram&role"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:53:05","url":"/api/users?page=1&limit=10&search=Ramdhan&role","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:53:05"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:53:05"}
+{"level":"debug","message":"Finding users with filters","options":{"limit":10,"page":1,"role":"","search":"Ramdhan"},"service":"user-api","timestamp":"2025-03-21 21:53:05"}
+{"error":"Assignment to constant variable.","level":"error","message":"Error finding users with filters","service":"user-api","timestamp":"2025-03-21 21:53:05"}
+{"level":"warn","message":"Outgoing response","method":"GET","responseTime":"40.84ms","service":"user-api","status":500,"timestamp":"2025-03-21 21:53:05","url":"/?page=1&limit=10&search=Ramdhan&role"}
+{"environment":"development","level":"info","message":"Server running on port 3030","service":"user-api","timestamp":"2025-03-21 21:53:53"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"user-api","timestamp":"2025-03-21 21:53:57","url":"/api/users?page=1&limit=10&search=Ramdhan&role","userAgent":"Apidog/1.0.0 (https://apidog.com)"}
+{"level":"debug","message":"Fetching user with id 1","service":"user-api","timestamp":"2025-03-21 21:53:57"}
+{"level":"debug","message":"Retrieved user with id 1","service":"user-api","timestamp":"2025-03-21 21:53:57"}
+{"level":"debug","message":"Finding users with filters","options":{"limit":10,"page":1,"role":"","search":"Ramdhan"},"service":"user-api","timestamp":"2025-03-21 21:53:57"}
+{"level":"debug","message":"Found 1 users out of 1 total","service":"user-api","timestamp":"2025-03-21 21:53:57"}
+{"level":"info","message":"Outgoing response","method":"GET","responseTime":"145.30ms","service":"user-api","status":200,"timestamp":"2025-03-21 21:53:57","url":"/?page=1&limit=10&search=Ramdhan&role"}
